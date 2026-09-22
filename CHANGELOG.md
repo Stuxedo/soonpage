@@ -5,6 +5,12 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v1.1.1
+
+### Changed
+
+- Heading now reads "This service/instance/project/website", since this page is reused across any of those, not just a website
+
 ## v1.1.0
 
 ### Added
