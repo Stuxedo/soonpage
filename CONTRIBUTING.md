@@ -10,17 +10,17 @@ the template itself (not a downstream deployment).
 
 ## Local setup
 
-There's no build step or dependencies — just open `index.html` in a browser,
-or serve the directory with any static file server, e.g.:
-
-```bash
-python3 -m http.server 8000
-```
+There's no build step or dependencies — just clone the repo and run
+`./dev-server.sh [port]` (or `dev-server.bat [port]` on Windows), which starts
+a local static server pointed at the directory. Then open
+`http://127.0.0.1:8000`.
 
 ## Project conventions
 
-- Single static `index.html` — no framework, no build step, no backend.
-- Keep it lightweight and dependency-free; any assets should be inlined or self-hosted, not pulled from third-party CDNs.
+- Static HTML pages (`index.html`, `legal.html` + `legal/`, `changelog.html`, `404.html`) — no framework, no build step, no backend.
+- Keep it lightweight and dependency-free; fonts are self-hosted under `assets/fonts/` rather than pulled from a third-party CDN — if you add a font weight, update `assets/fonts/fonts.css` and re-check which pages actually reference it.
+- `changelog.html` fetches and renders `CHANGELOG.md` at runtime — don't hand-duplicate changelog content into it.
+- General contact uses `hello@stuxedo.com`; legal-page contact uses `legal@stuxedo.com`.
 - Match the existing code style: no comments explaining *what* the markup does, only *why* when something is genuinely non-obvious.
 
 ## Versioning and changelog

@@ -7,11 +7,7 @@
     <link rel="icon" type="image/png" href="https://global.media.stuxedo.com/icon.png">
     <meta name="description" content="Stuxedo — Coming Soon">
     <title>Stuxedo — Coming Soon</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&family=Barlow:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/fonts.css">
     <style>
         *,
         *::before,
@@ -843,7 +839,7 @@
                     </svg>
                     Check Status Page
                 </a>
-                <a href="mailto:support@stuxedo.com" title="Email Stuxedo Support">
+                <a href="mailto:hello@stuxedo.com" title="Email Stuxedo Support">
                     <svg viewBox="0 0 24 24">
                         <rect x="2" y="4" width="20" height="16" rx="2" />
                         <polyline points="2,4 12,13 22,4" />
@@ -879,6 +875,12 @@
             <a href="https://services.stux.cloud" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;">A Stux.Cloud Service</a>
         </p>
 
+        <p style="font-size:0.8rem;color:var(--text-3);margin-top:0.5rem;">
+            <a href="changelog" id="version-link" style="color:inherit;text-decoration:underline;">Changelog</a>
+            &middot;
+            <a href="legal" style="color:inherit;text-decoration:underline;">Boring Legal Stuff</a>
+        </p>
+
     </div>
 
     <script>
@@ -904,6 +906,23 @@
                 apply(isDark);
             });
         })();
+    </script>
+    <script>
+        if (window.parent !== window) {
+            var parentOrigin = document.referrer ? new URL(document.referrer).origin : "*";
+            window.parent.postMessage(
+                { type: "page-title", title: document.title },
+                parentOrigin
+            );
+        }
+    </script>
+    <script>
+        fetch('VERSION.md')
+            .then(function (r) { return r.text(); })
+            .then(function (v) {
+                document.getElementById('version-link').textContent = 'v' + v.trim();
+            })
+            .catch(function () {});
     </script>
 </body>
 
