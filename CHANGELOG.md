@@ -5,6 +5,13 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v1.1.6
+
+### Changed
+- `changelog.html` now sorts each release's `###` sections into a fixed order — Added, Changed, Fixed, Removed, Security, Deprecated — at render time, rather than trusting the order `CHANGELOG.md` lists them in; unknown section types go last
+- Changelog type badges now use the fixed family palette — Added `#2ecc71`, Changed `#3ba7ff`, Fixed `#ffa64d`, Removed `#ff4d4d`, Security `#b06bff`, Deprecated `#8a8a94` — as tinted badges (coloured text on a light tint of the same hue), with darker variants of each for the light theme
+- CHANGELOG sections reordered to Added, Changed, Fixed, Removed, Security, Deprecated
+
 ## v1.1.5
 
 ### Fixed
@@ -50,10 +57,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MI
 
 ## v1.0.3
 
-### Fixed
-- `README.md` said Stuxedo is "a part of the Stux.Group brand" directly — the actual chain is Stuxedo → Stux.Cloud → Stux Group Ltd. Corrected to name Stux.Cloud as the direct operator, with Stux Group Ltd's full registration details.
 ### Added
 - "A Stux.Cloud Service" credit (linking to `https://services.stux.cloud`) next to the "Powered by Stuxedo" badge.
+
+### Fixed
+- `README.md` said Stuxedo is "a part of the Stux.Group brand" directly — the actual chain is Stuxedo → Stux.Cloud → Stux Group Ltd. Corrected to name Stux.Cloud as the direct operator, with Stux Group Ltd's full registration details.
 
 ## v1.0.2
 
