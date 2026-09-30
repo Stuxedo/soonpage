@@ -22,6 +22,7 @@ a local static server pointed at the directory. Then open
 - `changelog.html` fetches and renders `CHANGELOG.md` at runtime — don't hand-duplicate changelog content into it.
 - General contact uses `hello@stuxedo.com`; legal-page contact uses `legal@stuxedo.com`.
 - Match the existing code style: no comments explaining *what* the markup does, only *why* when something is genuinely non-obvious.
+- The sitemap (`sitemap.xml`, `sitemap/index.html`, `robots.txt`) is generated: after adding or removing a page, edit the `PAGES` list in `scripts/build-sitemap.py` and run `python scripts/build-sitemap.py`, then commit the result
 
 ## Versioning and changelog
 

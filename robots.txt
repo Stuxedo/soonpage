@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://soonpage.stuxedo.net/sitemap.xml
