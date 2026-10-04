@@ -41,6 +41,12 @@ This project uses GitHub Pages and can be automatically deployed to your desired
 
 The live version is deployed at [soonpage.stuxedo.net](https://soonpage.stuxedo.net).
 
+## Previous designs
+
+This repository always holds the current Stuxedo design (v2, the tuxedo-cat logo colours). Earlier designs are preserved as their own archived repositories:
+
+- [soonpage-v1](https://github.com/Stuxedo/soonpage-v1): the original green design, live at [soonpage-v1.stuxedo.net](https://soonpage-v1.stuxedo.net/)
+
 ## License
 
 This project is open source and available for use and modification.
