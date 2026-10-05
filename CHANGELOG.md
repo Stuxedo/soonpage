@@ -5,6 +5,17 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v2.0.2
+
+### Changed
+
+- README footer now matches the Stuxedo `.github` footer: "Built & Maintained by Stuxedo" with the Stuxedo icon, and "Stuxedo is a part of the Stux.Group brand of businesses" (replacing v2.0.1's "Stuxedo is operated by Stux Group Ltd…" line)
+- Every page's footer, the imprint and the privacy policy now say Stuxedo is operated by Stux Group Ltd, matching the other Stux.Group brands' pages, instead of "operated by Stux.Cloud, which is operated by Stux Group Ltd"
+
+### Fixed
+
+- The disclaimer and privacy policy said this page's buttons link to "other Stuxedo/Stux.Cloud services … and to the Stux.Cloud homepage"; they link to Stuxedo's Status, Dash and Mash and to the Stuxedo homepage, and now say so
+
 ## v2.0.1
 
 ### Changed
