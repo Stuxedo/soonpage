@@ -53,8 +53,8 @@ This project is open source and available for use and modification.
 
 ---
 
-*Built & Maintained by <img src="https://github.com/Stuxedo.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://github.com/Stuxedo).
-Stuxedo is operated by <img src="https://global.media.stux.cloud/icon.png" height="14" alt="Stux.Cloud" valign="middle"> Stux.Cloud, which is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE.*
+*Built & Maintained by <img src="https://global.media.stuxedo.com/icon.png" height="14" alt="Stuxedo" valign="middle"> [Stuxedo](https://github.com/Stuxedo).
+Stuxedo is operated by Stux Group Ltd, a company registered in England and Wales (company no. 13160574), registered office 82a James Carter Road, Mildenhall, England, IP28 7DE.*
 
 ## Local preview
 

@@ -5,6 +5,12 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v2.0.1
+
+### Changed
+
+- README footer now matches the other Stux.Group brands' page repos: "Built & Maintained by Stuxedo" with the Stuxedo icon from `global.media.stuxedo.com` (instead of the GitHub avatar), and "Stuxedo is operated by Stux Group Ltd…" (it previously read "operated by Stux.Cloud, which is operated by Stux Group Ltd…")
+
 ## v2.0.0
 
 ### Changed
