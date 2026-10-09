@@ -5,6 +5,12 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/) (MAJOR.MINOR.PATCH).
 
+## v2.0.3
+
+### Changed
+
+- The footer no longer says "Stuxedo is operated by Stux Group Ltd."; that belongs on the Imprint, which still says it. The copyright line names Stuxedo instead of Stux.Group ("© 2026 Stuxedo. All rights reserved.")
+
 ## v2.0.2
 
 ### Changed
