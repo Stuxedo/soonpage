@@ -5,6 +5,18 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.06
+
+### Changed
+
+- **Work happens on `test`.** Changes reach `main` only through a pull request from `test`, and releases are made and tagged on `test`. CONTRIBUTING has a Branches section, and the README's Versioning section says so.
+
+## v26.11.06
+
+### Changed
+
+- **Work happens on `test`.** Changes reach `main` only through a pull request from `test` (CI now runs on pushes to `test` too), and releases are made and tagged on `test`. CONTRIBUTING has a Branches section, and the README's Versioning section says so.
+
 ## v26.10.26
 
 ### Security
