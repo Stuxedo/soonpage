@@ -9,12 +9,6 @@ and this project adheres to [Date Versioning](https://datevers.ing) since v26.10
 
 ### Changed
 
-- **Work happens on `test`.** Changes reach `main` only through a pull request from `test`, and releases are made and tagged on `test`. CONTRIBUTING has a Branches section, and the README's Versioning section says so.
-
-## v26.11.06
-
-### Changed
-
 - **Work happens on `test`.** Changes reach `main` only through a pull request from `test` (CI now runs on pushes to `test` too), and releases are made and tagged on `test`. CONTRIBUTING has a Branches section, and the README's Versioning section says so.
 
 ## v26.10.26
