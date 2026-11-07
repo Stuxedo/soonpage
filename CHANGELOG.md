@@ -5,6 +5,12 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.07-1
+
+### Fixed
+
+- **CI passes again.** The HTML check rejected the Discord link preview's `<script id="discord:component-embed">`, as its id has a colon. Discord looks for that exact id, so `.htmlvalidate.json` now allows it (`valid-id` in relaxed mode) instead of renaming it. CI had failed on every push since the preview was added.
+
 ## v26.11.07
 
 ### Changed
