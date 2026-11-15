@@ -12,7 +12,7 @@ This document is for anyone working on the template itself (not a downstream dep
 There's no build step or dependencies — just clone the repo and run
 `./dev-server.sh [port]` (or `dev-server.bat [port]` on Windows), which starts
 a local static server pointed at the directory. Then open
-`http://127.0.0.1:8000`.
+`http://127.0.0.1:8000`. Add `--lan` to open it from a phone or another device on your network: it listens on every interface instead of `127.0.0.1` only and prints the addresses to open (usually the `192.168.x.x` one).
 
 ## Project conventions
 
