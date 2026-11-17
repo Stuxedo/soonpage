@@ -5,6 +5,12 @@ All notable changes to Coming Soon Page are documented here.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Date Versioning](https://datevers.ing) since v26.10.23 (`YY.MM.DD`, the UTC release date, with `-1`, `-2`… for later releases the same day); earlier releases used [Semantic Versioning](https://semver.org/).
 
+## v26.11.17
+
+### Changed
+
+- **Copyright Stuxedo.** The copyright notices now name Stuxedo instead of Stux.Group ("Copyright (c) 2026 Stuxedo. All rights reserved."), in `CONTRIBUTING.md`, `LICENSE`, `README.md`, `scripts/build-discord-embeds.py`, `scripts/build-sitemap.py`. Stuxedo is still part of the Stux.Group brand, and the Imprint still names the company that operates it.
+
 ## v26.11.15-1
 
 ### Changed
