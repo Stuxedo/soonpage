@@ -4,7 +4,7 @@
 
 # Contributing to Coming Soon Page
 
-This is a single-file HTML template. Copyright (c) 2026 Stux.Group. All rights reserved. This repository is not licensed for reuse or redistribution, see [LICENSE](LICENSE).
+This is a single-file HTML template. Copyright (c) 2026 Stuxedo. All rights reserved. This repository is not licensed for reuse or redistribution, see [LICENSE](LICENSE).
 This document is for anyone working on the template itself (not a downstream deployment).
 
 ## Local setup
